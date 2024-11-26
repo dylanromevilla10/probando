@@ -13,6 +13,7 @@ import ec.edu.espoch.integracionporpartes.Modelos.Derivacion;
 public class Controlador {
     private Vista vista;
     private Derivacion derivacion;
+    private String dylan;
     
     public Controlador(Vista vista){
         this.vista = vista;
